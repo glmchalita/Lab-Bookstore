@@ -1,5 +1,4 @@
 import pytest
-from django.contrib.auth.models import User
 from productAPI.factories import ProductFactory
 from orderAPI.models import Order
 from orderAPI.factories import UserFactory, OrderFactory
