@@ -147,3 +147,4 @@ ALLOWED_HOSTS = ["localhost", "glmchalita-bookstore-api-e46d15c0ae8a.herokuapp.c
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+ 
