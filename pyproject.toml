@@ -6,7 +6,7 @@ authors = ["Guilherme Chalita <guilhermechalita@hotmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10.5"
 pytest = "^7.4.1"
 factory-boy = "^3.3.0"
 django = "^4.2.5"
