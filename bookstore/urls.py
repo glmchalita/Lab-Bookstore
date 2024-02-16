@@ -9,4 +9,6 @@ urlpatterns = [
     re_path(r'bookstore/(?P<version>(v1|v2))/', include('orderAPI.urls')),
     re_path(r'bookstore/(?P<version>(v1|v2))/', include('productAPI.urls')),
     path('api-token-auth/', obtain_auth_token, name='api_token_auth'),
+    path("update_server/", views.update, name="update"),
+    path("hello/", views.hello_world, name="hello_world"),
 ]
