@@ -141,7 +141,7 @@ INTERNAL_IPS = [
 DEBUG = int(os.environ.get("DEBUG", default=0))
 
 # ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
-ALLOWED_HOSTS = ["localhost", "glmchalita-bookstore-api-e46d15c0ae8a.herokuapp.com", "glmchalita.pythonanywhere.com"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "glmchalita-bookstore-api-e46d15c0ae8a.herokuapp.com", "glmchalita.pythonanywhere.com"]
 
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 
