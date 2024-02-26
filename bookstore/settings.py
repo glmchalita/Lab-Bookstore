@@ -136,8 +136,8 @@ INTERNAL_IPS = [
 
 # # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = 'django-insecure-0+a^o87f!2og!)j)srnz5e2&rrqz(f@)h*zoffdyv8)%r+8(=i'
-
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = os.environ.setdefault("SECRET_KEY", "foo")
+# SECRET_KEY = os.environ.get("SECRET_KEY")
 
 DEBUG = int(os.environ.get("DEBUG", default=0))
 
